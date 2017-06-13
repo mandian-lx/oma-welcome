@@ -18,7 +18,7 @@ BuildArch:	noarch
 Introduce new users to the OpenMandriva Lx.
 
 %prep
-%setup -q -n %{name}-%{commit}
+%setup -q -n %{name}-sources-%{commit}
 %apply_patches
 
 %build
